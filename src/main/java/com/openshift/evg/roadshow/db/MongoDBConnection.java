@@ -26,9 +26,7 @@ public class MongoDBConnection {
     private static final String COLLECTION = "parks";
 
     // TODO: Get this from a Config file
-    // commented out to test static DB_HOST variable
-    // String dbHost = System.getenv("DB_HOST");
-    String dbHost = System.getenv("mongodb-mlbparks");
+    String dbHost = System.getenv("DB_HOST");
     String dbPort = System.getenv("DB_PORT");
     String dbUsername = System.getenv("DB_USERNAME");
     String dbPassword = System.getenv("DB_PASSWORD");
